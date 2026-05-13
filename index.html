@@ -191,6 +191,46 @@
         <select id="timeLimit"><option value="15">15s</option><option value="20">20s</option><option value="30" selected>30s</option><option value="45">45s</option><option value="60">60s</option></select>
       </div>
     </div>
+    <div class="g2">
+  <div>
+    <div class="lbl">Game Mode</div>
+    <select class="inp" id="gamemode">
+      <option value="multiplayer" selected>Multiplayer Room</option>
+      <option value="solo">Solo Practice</option>
+      <option value="team">Team Mode</option>
+    </select>
+  </div>
+
+  <div>
+    <div class="lbl">Difficulty</div>
+    <select class="inp" id="difficulty">
+      <option value="mixed" selected>Mixed</option>
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>
+</div>
+
+<div class="g2">
+  <div>
+    <div class="lbl">Question Types</div>
+    <select class="inp" id="qtypes">
+      <option value="mixed" selected>Mixed</option>
+      <option value="multiple_choice">Multiple Choice Only</option>
+      <option value="true_false">True / False Only</option>
+      <option value="open_ended">Open Answer Only</option>
+    </select>
+  </div>
+
+  <div>
+    <div class="lbl">Auto-Advance</div>
+    <select class="inp" id="autoadvance">
+      <option value="on" selected>On</option>
+      <option value="off">Off</option>
+    </select>
+  </div>
+</div>
     <div class="field"><label>Anthropic API Key</label><input type="password" id="apiKey" placeholder="sk-ant-api03-..." /></div>
     <div class="field"><label>Your display name</label><input type="text" id="hostName" placeholder="Host" maxlength="20" /></div>
     <div style="font-size:0.76rem;color:var(--muted);margin:-0.15rem 0 0.85rem;">Tip: your name and last room code are remembered on this device.</div>
